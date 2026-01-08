@@ -30,3 +30,6 @@ SpeechRecognition==3.10.0
 flask_cloudflared==0.0.14
 sse-starlette==1.6.5
 tiktoken
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
