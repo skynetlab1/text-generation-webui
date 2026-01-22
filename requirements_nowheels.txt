@@ -30,3 +30,6 @@ SpeechRecognition==3.10.0
 flask_cloudflared==0.0.14
 sse-starlette==1.6.5
 tiktoken
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
